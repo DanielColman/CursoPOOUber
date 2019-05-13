@@ -3,7 +3,7 @@ class UberX extends Car{
     String model;
 
     public UberX(String license, Account driver, String Brand, String model){
-        super(license, driver)); //Super Clase Constructor
+        super(license, driver); //Super Clase Constructor
         this.brand = brand;
         this.model = model;
     }
